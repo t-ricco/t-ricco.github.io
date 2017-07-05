@@ -31,16 +31,44 @@ In order to deal with these anomalies, we made the following decisions:
 **The Analysis**
 
 With much of the “dirty work” or organizing and cleaning our data out of the way, we could start examining the data and making observations we could use to formulate or recommendations to WTWY. Firstly we looked at the overall volume of riders and saw right away that: Ridership was much higher Monday through Friday than it was on Saturday and Sunday, with Wednesday being the busiest day of the week. When looking at the busiest stations, from Monday to Friday, ridership hit a small peak in the morning between 8am and noon, dropped somewhat from noon to 4 pm, than hit a higher peak in the afternoon to early evening from 4 pm to 8. 
- 
+Below, the average number of persons passing through a turnstile versus time at Herald Square and Penn Stations are graphed over the course of a week as examples.
+![alt text][logo]
+
+[logo]: https://github.com/t-ricco/t-ricco.github.io/blob/master/_posts/MTA_post_1.png "Herald Square"
+
+![alt text][logo]
+
+[logo]: https://github.com/t-ricco/t-ricco.github.io/blob/master/_posts/MTA_post_2.png "Penn Station"
+
 We noted that our numbers correlated as much with the size of the strain station as anything and at this point decided to look at the traffic at each station through the lens of computing the average number of riders per turnstile. We reasoned that with a limited number of street teams deployed, we needed to be able to predict where the highest density of people would be to maximize the potential for the street teams to engage people. We found that many of the largest stations were still near the top of our list of potential time-location recommendations, but other noted:
 1 - Certain other stations had a higher traffic density than those with the highest overall volume of riders and, additionally,
 2 - There was relatively little difference in the traffic density among the busiest time-location combinations.
+
+![alt text][logo]
+
+[logo]: https://github.com/t-ricco/t-ricco.github.io/blob/master/_posts/MTA_post_3.png "Avg Persons per turnstile"
 
 With that in mind we further filtered our recommendations by comparing our list of potential recommended time-locations for WTWY to a map of the locations of the largest tech employers in New York. We found the region between 14th street and 34th street in Manhattan to be particularly dense with tech companies*. With that in mind we were ables to make our recommendation for where WTWY’s street teams should be deployed with the following in mind:
 
 1 - The stations should be in Manhattan between 14th street and 34th street.
 2 - Clearly, a single street team could not operate at more than one location at the same time.
 3 - Our recommended times at locations would maximize ridership traffic density.
+
+![alt text][logo]
+
+[logo]: https://github.com/t-ricco/t-ricco.github.io/blob/master/_posts/MTA_post_4.png "Avg Persons per turnstile - revised"
+
+Our final recommendations to WTWY based on the problem criteria and our analysis
+|Team number|Station|Time|
+|----------:|-------:|:--|
+|1| 23 St and 6 Ave  |Wednesday 4pm to 8pm
+| |                  |Thursday 4pm to 8pm
+|2|  34 St - Herald Square |Wednesday 4pm to 8pm
+| |  14 St - Union Square | Tuesday 4pm to 8pm
+|3| 23 St and 6 Ave |Tuesday 4pm to 8pm
+| |                 |Friday 4pm to 8pm
+|4| 14 St - Union Square |Tuesday 4pm to 8pm
+| |                      |Wednesday 5pm to 9pm
 
 *Throughout the process, the assumptions the team made framed our investigation and guided our reasoning to the results. There were times where we debated whether recommending to position street teams when most people on their way home from work would be the best thing to do. Again, we need to be careful about what we are assuming: Is it fair to assume almost everyone is commuting home? If that were so, the evening peak should more closely match the morning peak. Is it even fair to assume that people commuting to or from work are more or less likely to engage a volunteer canvasser? Maybe, but without any actual evidence one way or another I am uncomfortable jumping to a conclusion that might bias my conclusion towards whatever preconceived notions I might hold at the start of my investigation. Without questioning every assumption we bring to bear, we risk undermining our objectivity.* 
  
