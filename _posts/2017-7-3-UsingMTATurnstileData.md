@@ -46,7 +46,7 @@ We noted that our numbers correlated as much with the size of the strain station
 
 ![alt text][logo]
 
-[logo]: https://github.com/t-ricco/t-ricco.github.io/blob/master/_images/MTA_post_3.png "Avg Persons per turnstile"
+[logo]: https://github.com/t-ricco/t-ricco.github.io/blob/master/images/MTA_post_3.png "Avg Persons per turnstile"
 
 With that in mind we further filtered our recommendations by comparing our list of potential recommended time-locations for WTWY to a map of the locations of the largest tech employers in New York. We found the region between 14th street and 34th street in Manhattan to be particularly dense with tech companies*. With that in mind we were ables to make our recommendation for where WTWY’s street teams should be deployed with the following in mind:
 
@@ -56,7 +56,7 @@ With that in mind we further filtered our recommendations by comparing our list 
 
 ![alt text][logo]
 
-[logo]: https://github.com/t-ricco/t-ricco.github.io/blob/master/_images/MTA_post_4.png "Avg Persons per turnstile - revised"
+[logo]: https://github.com/t-ricco/t-ricco.github.io/blob/master/images/MTA_post_4.png "Avg Persons per turnstile - revised"
 
 Our final recommendations to WTWY based on the problem criteria and our analysis
 |Team number|Station|Time|
