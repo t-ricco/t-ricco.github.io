@@ -57,7 +57,7 @@ With that in mind we further filtered our recommendations by comparing our list 
 
 ![alt text][logo]
 
-[logo]: https://github.com/t-ricco/t-ricco.github.io/blob/master/images/MTA_post_4.png "Avg Persons per turnstile - revised"
+[logo]: https://t-ricco.github.io/blob/master/images/MTA_post_4.png "Avg Persons per turnstile - revised"
 
 Our final recommendations to WTWY based on the problem criteria and our analysis
 |Team number|Station|Time|
