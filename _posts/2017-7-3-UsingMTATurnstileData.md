@@ -32,13 +32,13 @@ In order to deal with these anomalies, we made the following decisions:
 
 With much of the “dirty work” or organizing and cleaning our data out of the way, we could start examining the data and making observations we could use to formulate or recommendations to WTWY. Firstly we looked at the overall volume of riders and saw right away that: Ridership was much higher Monday through Friday than it was on Saturday and Sunday, with Wednesday being the busiest day of the week. When looking at the busiest stations, from Monday to Friday, ridership hit a small peak in the morning between 8am and noon, dropped somewhat from noon to 4 pm, than hit a higher peak in the afternoon to early evening from 4 pm to 8. 
 Below, the average number of persons passing through a turnstile versus time at Herald Square and Penn Stations are graphed over the course of a week as examples.
-![alt text][({{ site.baseurl }}/images/MTA_post_1.png) "Herald Square"]
+![alt text] (https://github.com/t-ricco/t-ricco.github.io/blob/master/images/MTA_post_1.png "Herald Square")
 
-[logo]: https://github.com/t-ricco/t-ricco.github.io/blob/master/_images/MTA_post_1.png "Herald Square"
+[logo]: https://github.com/t-ricco/t-ricco.github.io/blob/master/images/MTA_post_1.png "Herald Square"
 
 ![alt text][logo]
 
-[logo]: https://github.com/t-ricco/t-ricco.github.io/blob/master/_images/MTA_post_2.png "Penn Station"
+[logo]: https://github.com/t-ricco/t-ricco.github.io/blob/master/images/MTA_post_2.png "Penn Station"
 
 We noted that our numbers correlated as much with the size of the strain station as anything and at this point decided to look at the traffic at each station through the lens of computing the average number of riders per turnstile. We reasoned that with a limited number of street teams deployed, we needed to be able to predict where the highest density of people would be to maximize the potential for the street teams to engage people. We found that many of the largest stations were still near the top of our list of potential time-location recommendations, but other noted:
 1 - Certain other stations had a higher traffic density than those with the highest overall volume of riders and, additionally,
