@@ -60,16 +60,16 @@ With that in mind we further filtered our recommendations by comparing our list 
 [logo]: https://t-ricco.github.io/blob/master/images/MTA_post_4.png "Avg Persons per turnstile - revised"
 
 Our final recommendations to WTWY based on the problem criteria and our analysis
-|Team number|Station|Time|
-|----------:|-------:|:--|
-|1| 23 St and 6 Ave  |Wednesday 4pm to 8pm
-| |                  |Thursday 4pm to 8pm
-|2|  34 St - Herald Square |Wednesday 4pm to 8pm
-| |  14 St - Union Square | Tuesday 4pm to 8pm
-|3| 23 St and 6 Ave |Tuesday 4pm to 8pm
-| |                 |Friday 4pm to 8pm
-|4| 14 St - Union Square |Tuesday 4pm to 8pm
-| |                      |Wednesday 5pm to 9pm
+|Team number|Station              |Time                |
+|----------:|--------------------:|:-------------------|
+|1          | 23 St and 6 Ave     |Wednesday 4pm to 8pm|
+|           |                     |Thursday 4pm to 8pm |
+|2          |34 St - Herald Square|Wednesday 4pm to 8pm|
+|           |14 St - Union Square | Tuesday 4pm to 8pm |
+|3          |23 St and 6 Ave      |Tuesday 4pm to 8pm  |
+|           |                     |Friday 4pm to 8pm   |
+|4          |14 St - Union Square |Tuesday 4pm to 8pm  |
+|           |                     |Wednesday 5pm to 9pm|
 
 *Throughout the process, the assumptions the team made framed our investigation and guided our reasoning to the results. There were times where we debated whether recommending to position street teams when most people on their way home from work would be the best thing to do. Again, we need to be careful about what we are assuming: Is it fair to assume almost everyone is commuting home? If that were so, the evening peak should more closely match the morning peak. Is it even fair to assume that people commuting to or from work are more or less likely to engage a volunteer canvasser? Maybe, but without any actual evidence one way or another I am uncomfortable jumping to a conclusion that might bias my conclusion towards whatever preconceived notions I might hold at the start of my investigation. Without questioning every assumption we bring to bear, we risk undermining our objectivity.* 
  
