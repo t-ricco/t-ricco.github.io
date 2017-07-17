@@ -60,6 +60,7 @@ With that in mind we further filtered our recommendations by comparing our list 
 [logo4]: https://t-ricco.github.io/blob/master/images/MTA_post_4.png "Avg Persons per turnstile - revised"
 
 Our final recommendations to WTWY based on the problem criteria and our analysis
+
 |Team number|Station              |Time                |
 |----------:|--------------------:|:-------------------|
 |1          | 23 St and 6 Ave     |Wednesday 4pm to 8pm|
