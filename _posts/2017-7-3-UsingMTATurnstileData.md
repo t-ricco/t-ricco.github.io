@@ -37,17 +37,17 @@ Below, the average number of persons passing through a turnstile versus time at 
 
 [logo]: https://github.com/t-ricco/t-ricco.github.io/blob/master/images/MTA_post_1.png "Herald Square"
 
-![alt text][logo]
+![alt text][logo2]
 
-[logo]: https://github.com/t-ricco/t-ricco.github.io/blob/master/images/MTA_post_2.png "Penn Station"
+[logo2]: https://github.com/t-ricco/t-ricco.github.io/blob/master/images/MTA_post_2.png "Penn Station"
 
 We noted that our numbers correlated as much with the size of the strain station as anything and at this point decided to look at the traffic at each station through the lens of computing the average number of riders per turnstile. We reasoned that with a limited number of street teams deployed, we needed to be able to predict where the highest density of people would be to maximize the potential for the street teams to engage people. We found that many of the largest stations were still near the top of our list of potential time-location recommendations, but other noted:
 1 - Certain other stations had a higher traffic density than those with the highest overall volume of riders and, additionally,
 2 - There was relatively little difference in the traffic density among the busiest time-location combinations.
 
-![alt text][logo]
+![alt text][logo3]
 
-[logo]: https://github.com/t-ricco/t-ricco.github.io/blob/master/images/MTA_post_3.png "Avg Persons per turnstile"
+[logo3]: https://github.com/t-ricco/t-ricco.github.io/blob/master/images/MTA_post_3.png "Avg Persons per turnstile"
 
 With that in mind we further filtered our recommendations by comparing our list of potential recommended time-locations for WTWY to a map of the locations of the largest tech employers in New York. We found the region between 14th street and 34th street in Manhattan to be particularly dense with tech companies*. With that in mind we were ables to make our recommendation for where WTWY’s street teams should be deployed with the following in mind:
 
@@ -55,9 +55,9 @@ With that in mind we further filtered our recommendations by comparing our list 
 2 - Clearly, a single street team could not operate at more than one location at the same time.
 3 - Our recommended times at locations would maximize ridership traffic density.
 
-![alt text][logo]
+![alt text][logo4]
 
-[logo]: https://t-ricco.github.io/blob/master/images/MTA_post_4.png "Avg Persons per turnstile - revised"
+[logo4]: https://t-ricco.github.io/blob/master/images/MTA_post_4.png "Avg Persons per turnstile - revised"
 
 Our final recommendations to WTWY based on the problem criteria and our analysis
 |Team number|Station              |Time                |
