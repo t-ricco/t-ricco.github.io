@@ -34,7 +34,7 @@ With much of the “dirty work” or organizing and cleaning our data out of the
 Below, the average number of persons passing through a turnstile versus time at Herald Square and Penn Stations are graphed over the course of a week as examples.
 
 ![alt text][logo]
-
+edit_for_now
 [logo]: https://github.com/t-ricco/t-ricco.github.io/raw/master/images/MTA_post_1.png "Herald Square"
 
 ![alt text][logo2]
