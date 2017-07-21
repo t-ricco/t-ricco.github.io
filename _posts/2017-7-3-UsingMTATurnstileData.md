@@ -35,7 +35,7 @@ Below, the average number of persons passing through a turnstile versus time at 
 
 ![alt text][logo]
 
-[logo]: https://github.com/t-ricco/t-ricco.github.io/blob/master/images/MTA_post_1.png "Herald Square"
+[logo]: https://github.com/t-ricco/t-ricco.github.io/raw/master/images/MTA_post_1.png "Herald Square"
 
 ![alt text][logo2]
 
