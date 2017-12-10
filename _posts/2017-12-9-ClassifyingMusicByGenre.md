@@ -37,7 +37,16 @@ The improvement in combining the multiple classifiers was dramatic. Accuracy jum
 
 ![alt text][logo]
 
-[logo]: https://github.com/t-ricco/t-ricco.github.io/raw/master/images/MSDprecision.png
+[logo]: https://github.com/t-ricco/t-ricco.github.io/raw/master/images/MSDprecision.png "Precision"
+
+![alt text][logo2]
+
+[logo2]: https://github.com/t-ricco/t-ricco.github.io/raw/master/images/MSDrecall.png "Recall"
+
+![alt text][logo3]
+
+[logo3]: https://github.com/t-ricco/t-ricco.github.io/raw/master/images/MSDf1.png "F1 score"
+
 
 **Reflection**
 
