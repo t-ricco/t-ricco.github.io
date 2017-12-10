@@ -34,7 +34,9 @@ Throughout the process of building my model, I observed that the fewer number of
 With those observations in mind, I trained 15 separate SVMs, each one would distinguish between two possible genres (For example, one was trained only on songs labeled ‘rock’ or ‘pop’. Another was trained only on ‘rock’ and ‘hip-hop’, etc.). Going forward my approach would be to identify the two most likely genres for a song using a logistic regression classifier, and then use an appropriately trained SVM classifier to make the final determination.
 
 The improvement in combining the multiple classifiers was dramatic. Accuracy jumped to 70% on the validation set. Improvements in precision and recall over using a single classifier also resulted.
+
 ![alt text][logo]
+
 [logo]: https://github.com/t-ricco/t-ricco.github.io/raw/master/images/MSDprecision.png
 
 **Reflection**
