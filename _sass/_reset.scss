@@ -47,17 +47,22 @@ table{
     border-collapse: collapse;
     border-spacing: 1;
     border:2px solid #000000;
+    width: 100%;
 }
 
 th{
     border:2px solid #000000;
+    background-color: #1c86ee;
+    color: white
 }
 
 td{
     border:1px solid #000000;
+    height: 25px
 }
+
 tr:nth-child(even) {
-background-color: #f2f2f2;
+    background-color: #f2f2f2;
 }
 
 // Apply a natural box layout model to all elements
