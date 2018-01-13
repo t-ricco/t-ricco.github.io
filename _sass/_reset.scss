@@ -53,13 +53,14 @@ th{
     border:1px solid #000000;
     background-color: #1c86ee;
     color: white;
+    font-weight: bold;
 }
 
 td{
     height: 25px;
 }
 
-tr:nth-child(odd) {
+tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
