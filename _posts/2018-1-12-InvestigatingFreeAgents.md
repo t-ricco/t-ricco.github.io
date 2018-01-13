@@ -38,7 +38,7 @@ What perhaps is most surprising is that 39% of all players signed in free agency
 
 ![alt text][logo]
 
-[logo]: https://github.com/t-ricco/t-ricco.github.io/raw/master/images/boxplot_FreeAgents1.png "WAR by Length of Contract"
+[logo]: https://github.com/t-ricco/t-ricco.github.io/raw/master/images/boxplot_FreeAgent1.png "WAR by Length of Contract"
 
 There is a definite upward trend in the WAR per year for free agents as the number of years on the contract increases from 2 on up. This makes sense as players with a higher performance level leading into free agency can demand more years on their contract. What is noteworthy here is that the median, third quartile and maximum WAR rates on 1 year contracts is higher than those on 2, 3, 4, or 5 year contracts. I suspect that this is because a number of free agents who are not satisfied with the multi-year offers they receive in free agency accept one-year deals hoping for better offers next year.
 
@@ -46,7 +46,7 @@ One might reasonably assume that signing younger players via free agency might l
 
 ![alt text][logo]
 
-[logo]: https://github.com/t-ricco/t-ricco.github.io/raw/master/images/scatterplot_FreeAgents2.png "Scatterplot"
+[logo]: https://github.com/t-ricco/t-ricco.github.io/raw/master/images/scatterplot_FreeAgent2.png "Scatterplot"
 
 Each color in the above scatterplot corresponds to an age group, where age is determined by the player’s age at midnight, June 30th of the first year of their free agent contract. The age groups are 25-29 years of age (red), 30 - 34 years of age (blue), 35 - 39 (green), 40 - 44 (yellow), and 45+ (the last group consists only of Jamie Moyer’s contract signed in 2008). We see in general that there is definitely a positive correlation between the between a player’s demonstrated production previous to free agency and his performance under his new contract and that correlation appears within each age group. 
 
@@ -69,4 +69,4 @@ Before signing off, I wanted to take a look at which organizations have demonstr
 
 ![alt text][logo]
 
-[logo]: https://github.com/t-ricco/t-ricco.github.io/raw/master/images/bar_FreeAgents3.png "Teams"
+[logo]: https://github.com/t-ricco/t-ricco.github.io/raw/master/images/bar_FreeAgent3.png "Teams"
