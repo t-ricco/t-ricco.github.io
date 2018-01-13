@@ -36,17 +36,17 @@ To my surprise, only 42% of players met even this lower this standard. In fact, 
 
 What perhaps is most surprising is that 39% of all players signed in free agency in the past ten years produced zero WAR per year or less over the life of the contract. This is not restricted to short term deals. 10 of the 62 free agents who signed for 4 or 5 years, players who presumably earned those long term deals after producing at levels well above league average, did not result in a positive annual WAR. Looking at the box plots below, which are broken down by the length of the players’ contracts, we see how common it is for players to provide either little, or worse, negative value.
 
-![alt text][logo]
+![alt text][logo1]
 
-[logo]: https://github.com/t-ricco/t-ricco.github.io/raw/master/images/boxplot_FreeAgent1.png "WAR by Length of Contract"
+[logo1]: https://github.com/t-ricco/t-ricco.github.io/raw/master/images/boxplot_FreeAgent1.png "WAR by Length of Contract"
 
 There is a definite upward trend in the WAR per year for free agents as the number of years on the contract increases from 2 on up. This makes sense as players with a higher performance level leading into free agency can demand more years on their contract. What is noteworthy here is that the median, third quartile and maximum WAR rates on 1 year contracts is higher than those on 2, 3, 4, or 5 year contracts. I suspect that this is because a number of free agents who are not satisfied with the multi-year offers they receive in free agency accept one-year deals hoping for better offers next year.
 
 One might reasonably assume that signing younger players via free agency might lead to better production since their skills are closer to their peak. However, this does not seem to be the case.
 
-![alt text][logo]
+![alt text][logo2]
 
-[logo]: https://github.com/t-ricco/t-ricco.github.io/raw/master/images/scatterplot_FreeAgent2.png "Scatterplot"
+[logo2]: https://github.com/t-ricco/t-ricco.github.io/raw/master/images/scatterplot_FreeAgent2.png "Scatterplot"
 
 Each color in the above scatterplot corresponds to an age group, where age is determined by the player’s age at midnight, June 30th of the first year of their free agent contract. The age groups are 25-29 years of age (red), 30 - 34 years of age (blue), 35 - 39 (green), 40 - 44 (yellow), and 45+ (the last group consists only of Jamie Moyer’s contract signed in 2008). We see in general that there is definitely a positive correlation between the between a player’s demonstrated production previous to free agency and his performance under his new contract and that correlation appears within each age group. 
 
@@ -67,6 +67,6 @@ Identifying the right players to target and sign is hard. With any free agent si
 
 Before signing off, I wanted to take a look at which organizations have demonstrated the best track record when it comes to signing free agents. It turns out the Blue Jays are head and shoulders above the competition in this area.  
 
-![alt text][logo]
+![alt text][logo3]
 
-[logo]: https://github.com/t-ricco/t-ricco.github.io/raw/master/images/bar_FreeAgent3.png "Teams"
+[logo3]: https://github.com/t-ricco/t-ricco.github.io/raw/master/images/bar_FreeAgent3.png "Teams"
