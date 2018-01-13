@@ -52,8 +52,7 @@ Each color in the above scatterplot corresponds to an age group, where age is de
 
 But, younger free agents are no better at holding their value than older ones. The table below consists of all players who entered free agency before their age 30 season between 2006 and 2016 with at least 3 WAR per year in the three years leading up to free agency. 
 
-| PLAYER | YEAR | AGE | NEW_TEAM | Length of Contract | WAR per YEAR  | WAR per YEAR  | DOLLARS per YEAR | 
-|  |  |  |  |  | (3 years before free agency) | (During Contract) |  | 
+| PLAYER | YEAR | AGE | NEW_TEAM | Length of Contract | WAR per YEAR (3 years preceding free agency) | WAR per YEAR (During Contract) | DOLLARS per YEAR | 
 | --- | --- | --- | --- | --- | --- | --- |  | 
 | CC Sabathia | 2008 | 28 | Yankees | 7 | 6.10 | 3.20 | $23,000,000.00 | 
 | Mark Teixeira | 2008 | 29 | Yankees | 8 | 5.60 | 2.59 | $22,500,000.00 | 
