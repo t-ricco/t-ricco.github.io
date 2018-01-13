@@ -8,18 +8,21 @@ At the conclusion of the World Series each year, fans of all but one of the 30 m
 I gathered information of every free agent signing in major league baseball starting with the offseason following the 2006 season by scraping performance and salary data from baseball-reference.com and espn.com. For the purposes of this investigation, I am only interested in players that all teams would have had an opportunity to negotiate with and sign as free agents. The reason for this is that I was inspired to investigate this topic after reading a wide variety of media reports calling for teams to make significant commitments through the free agent market. As such, players like Mike Trout and Giancarlo Stanton who signed long term contracts before becoming eligible for free agency or signed extensions while still under contract are not part of this investigation.
 
 Before we can determine a good way to evaluate a contract, we need a metric to measure a player’s performance. For that we use Wins Above Replacement (WAR) as calculated by Baseball Reference. 
-***
+
+---
+
 **A Brief Aside About WAR**
 If you are familiar WAR, feel free to skip this section. WAR has become a commonly accepted metric that summarizes all of a player’s contributions at the bat, in the field, or pitching. For reference, the following table taken from Fangraphs provides a breakdown of how to make sense of the WAR awarded to a position player or starting pitcher in a single season:
 
 | Scrub | Role Player | Solid Starter | Good Player | All-Star | Superstar | MVP |
-| --- | --- | --- | --- | --- | --- | --- |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 0-1 WAR | 1-2 WAR | 2-3 WAR | 3-4 WAR | 4-5 WAR | 5-6 WAR | 6+ WAR |
 
 https://www.fangraphs.com/library/misc/war/
 
 More on how Baseball Reference calculates WAR and on how it can be interpreted can be found here: https://www.baseball-reference.com/about/war_explained.shtml
-***
+
+---
 
 WAR gives us a way to evaluate the overall production of a player and compare production between two players, but I am interested in whether or not a free agent signing could be qualified as “successful” from a team’s perspective. It is tempting to try and attempt to assess the monetary value of the production of each player, however due to how rapidly salaries in Major League Baseball have increase from year to year, it would be misleading to compare value based on a player’s salary between two players signed even a few years apart without adjusting for inflation. With that in mind, I will look for a simpler rule to classify whether a free agent signing was a success.
 
@@ -52,8 +55,8 @@ Each color in the above scatterplot corresponds to an age group, where age is de
 
 But, younger free agents are no better at holding their value than older ones. The table below consists of all players who entered free agency before their age 30 season between 2006 and 2016 with at least 3 WAR per year in the three years leading up to free agency. 
 
-| PLAYER | YEAR | AGE | NEW_TEAM | Length of Contract | WAR per YEAR (3 years preceding free agency) | WAR per YEAR (During Contract) | DOLLARS per YEAR | 
-| --- | --- | --- | --- | --- | --- | --- |  | 
+| Player | Year | Age | New Team | Length of Contract | WAR/YEAR (3 years preceding free agency) | WAR/YEAR (During Contract) | Annual Value (USD) | 
+| --- | :--- | --- | --- | --- | --- | --- |  | 
 | CC Sabathia | 2008 | 28 | Yankees | 7 | 6.10 | 3.20 | $23,000,000.00 | 
 | Mark Teixeira | 2008 | 29 | Yankees | 8 | 5.60 | 2.59 | $22,500,000.00 | 
 | Jason Heyward | 2015 | 26 | Cubs | 8 | 5.47 | 1.95 | $23,000,000.00 |
