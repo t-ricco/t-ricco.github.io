@@ -24,7 +24,7 @@ What we see is the transformed data points along with the projected values. The 
 
 ![alt text][logo3]
 
-[logo3]: https://github.com/t-ricco/t-ricco.github.io/tree/master/images/prophet3.png "Actual Values"
+[logo3]: https://github.com/t-ricco/t-ricco.github.io/raw/master/images/prophet3.png "Actual Values"
 
 Looking at that graph we do indeed see that the actual price of Bitcoin does indeed range outside that 80% confidence interval. Interestingly, after a price correction in December, the actual values do fall back within the 80% confidence interval. This suggests that the model gives a pretty good picture of the range of potential outcomes.
 
@@ -33,13 +33,13 @@ One of the features of **Prophet** is the fact that it can account for yearly, w
 
 ![alt text][logo4]
 
-[logo4]: https://github.com/t-ricco/t-ricco.github.io/tree/master/images/prophet4.png "Components"
+[logo4]: https://github.com/t-ricco/t-ricco.github.io/raw/master/images/prophet4.png "Components"
 
 For comparisons sake, I looked at what a **Prophet** model would project for the price of Bitcoin going forward if it was trained on all available data. When I did that I got the following result.
 
 ![alt text][logo5]
 
-[logo5]: https://github.com/t-ricco/t-ricco.github.io/tree/master/images/prophet5.png "All Data"
+[logo5]: https://github.com/t-ricco/t-ricco.github.io/raw/master/images/prophet5.png "All Data"
 
 We can see that this model doesn't even accurately reflect the current price of Bitcoin, even though it was trained using those data. Of course, part of the problem is the extreme increase in Bitcoin price that is out of line with recent history. The other problem is that since we fit our model on the log of the price, errors were inflated greatly when exponentiating back to USD scale. The take away here is that no matter how sophisticated or up to date the machine learning tool brought to bear on a problem, we as data scientists still need to analyze, interpret, and update our models.
 
