@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Time Series Analysis with Facebook's Prophet
@@ -23,18 +22,21 @@ We then set up a new dataframe with the `make_future_dataframe` method. In this 
 
 What we see is the transformed data points along with the projected values. The visible colored band about the trendline represents the 80% confidence interval. We'll have to do a little bit more work if we want to see the results to our original scale in USD. 
 
-![plot_actual](https://github.com/t-ricco/t-ricco.github.io/tree/master/images/prophet3.png)
+![plot_actual][logo3]
+[logo3]: https://github.com/t-ricco/t-ricco.github.io/tree/master/images/prophet3.png
 
 Looking at that graph we do indeed see that the actual price of Bitcoin does indeed range outside that 80% confidence interval. Interestingly, after a price correction in December, the actual values do fall back within the 80% confidence interval. This suggests that the model gives a pretty good picture of the range of potential outcomes.
 
 
 One of the features of **Prophet** is the fact that it can account for yearly, weekly, and daily seasonality. (It also can account for holiday seasonality, but we'll leave that exploration for another day.) We can view how those seasonal components are used in our model with the `plot_components`  method.
 
-![components](https://github.com/t-ricco/t-ricco.github.io/tree/master/images/prophet4.png)
+![plot_actual][logo4]
+[logo4]: https://github.com/t-ricco/t-ricco.github.io/tree/master/images/prophet4.png
 
 For comparisons sake, I looked at what a **Prophet** model would project for the price of Bitcoin going forward if it was trained on all available data. When I did that I got the following result.
 
-![plot_all_data](https://github.com/t-ricco/t-ricco.github.io/tree/master/images/prophet4.png)
+![plot_actual][logo5]
+[logo5]: https://github.com/t-ricco/t-ricco.github.io/tree/master/images/prophet5.png
 
 We can see that this model doesn't even accurately reflect the current price of Bitcoin, even though it was trained using those data. Of course, part of the problem is the extreme increase in Bitcoin price that is out of line with recent history. The other problem is that since we fit our model on the log of the price, errors were inflated greatly when exponentiating back to USD scale. The take away here is that no matter how sophisticated or up to date the machine learning tool brought to bear on a problem, we as data scientists still need to analyze, interpret, and update our models.
 
