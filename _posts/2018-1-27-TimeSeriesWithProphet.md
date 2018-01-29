@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Time Series Analysis with Facebook's Prophet
- ---
+---
+
 Not quite a year ago (I am writing this on January 27, 2018), Facebook released its **Prophet** forecasting tool for Python. **Prophet** is an interface built on **PyStan**, making it relatively to do time series analysis based on Bayesian methods. **Prophet** has a lot of features to help with time series analysis. For one, Having recently learned of the existence of **Prophet** I wanted to take it for a test run and see what kind of results I could get with it. I decided to use a what I thought would be a pretty unpredictable time series for my data: Bitcoin prices starting from January 1, 2012 through January 8, 2018.
 
 The data was taken from Bitstamp exchange and can be found [here](https://www.kaggle.com/mczielinski/bitcoin-historical-data). Though the original dataset included prices by the minute, I restricted the data to once daily prices to limit computing time. In order to use **Prophet**, data must be organized into a dataframe with datetime data in a column labeled 'ds' and the regressors in a column labeled 'y'. In order to both linearize our data and stabilize the variance, we perform a logarithmic transformation on our prices. (There are a number of reasons *not* to apply a log transform here, but this will do the trick for the purposes of this post). We then declare a Prophet object and fit it as we would a Scikit-Learn object. You'll notice that I've held out the last 26 weeks of 2017 from our training set for validation. 
