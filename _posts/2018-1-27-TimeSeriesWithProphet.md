@@ -1,3 +1,4 @@
+
 ---
 layout: post
 title: Time Series Analysis with Facebook's Prophet
@@ -7,13 +8,18 @@ Not quite a year ago (I am writing this on January 27, 2018), Facebook released 
 
 The data was taken from Bitstamp exchange and can be found [here](https://www.kaggle.com/mczielinski/bitcoin-historical-data). Though the original dataset included prices by the minute, I restricted the data to once daily prices to limit computing time. In order to use **Prophet**, data must be organized into a dataframe with datetime data in a column labeled 'ds' and the regressors in a column labeled 'y'. In order to both linearize our data and stabilize the variance, we perform a logarithmic transformation on our prices. (There are a number of reasons *not* to apply a log transform here, but this will do the trick for the purposes of this post). We then declare a Prophet object and fit it as we would a Scikit-Learn object. You'll notice that I've held out the last 26 weeks of 2017 from our training set for validation. 
 
-![table](https://github.com/t-ricco/t-ricco.github.io/tree/master/images/prophet1.png)
+
+![alt text][logo1]
+
+[logo1]: https://github.com/t-ricco/t-ricco.github.io/raw/master/images/prophet1.png "code"
 
 Given that we know the rapid rate of increase in bitcoin price that took place over that time period, I don't expect our model to come very close to predicting it, but I'm curious how far off the model is.
 
 We then set up a new dataframe with the `make_future_dataframe` method. In this case we'll be projecting out 365 days. After predicting our data we can visualize the results with the `plot` method supplied by **Prophet**. 
 
-![plot_log](https://github.com/t-ricco/t-ricco.github.io/tree/master/images/prophet2.png)
+![alt text][logo2]
+
+[logo2]: https://github.com/t-ricco/t-ricco.github.io/raw/master/images/prophet2.png "plot_log"
 
 What we see is the transformed data points along with the projected values. The visible colored band about the trendline represents the 80% confidence interval. We'll have to do a little bit more work if we want to see the results to our original scale in USD. 
 
