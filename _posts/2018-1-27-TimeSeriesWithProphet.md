@@ -26,7 +26,7 @@ What we see is the transformed data points along with the projected values. The 
 
 [logo3]: https://github.com/t-ricco/t-ricco.github.io/raw/master/images/prophet3.png "Actual Values"
 
-Looking at that graph we do indeed see that the actual price of Bitcoin does indeed range outside that 80% confidence interval. Interestingly, after a price correction in December, the actual values do fall back within the 80% confidence interval. This suggests that the model gives a pretty good picture of the range of potential outcomes.
+Looking at that graph we see that the actual price of Bitcoin does indeed range outside that 80% confidence interval. Interestingly, after a price correction in December, the actual values do fall back within the 80% confidence interval. This suggests that the model gives a pretty good picture of the range of potential outcomes.
 
 
 One of the features of **Prophet** is the fact that it can account for yearly, weekly, and daily seasonality. (It also can account for holiday seasonality, but we'll leave that exploration for another day.) We can view how those seasonal components are used in our model with the `plot_components`  method.
