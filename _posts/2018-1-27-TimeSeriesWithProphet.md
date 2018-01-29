@@ -22,7 +22,7 @@ We then set up a new dataframe with the `make_future_dataframe` method. In this 
 
 What we see is the transformed data points along with the projected values. The visible colored band about the trendline represents the 80% confidence interval. We'll have to do a little bit more work if we want to see the results to our original scale in USD. 
 
-![plot_actual][logo3]
+![alt text][logo3]
 
 [logo3]: https://github.com/t-ricco/t-ricco.github.io/tree/master/images/prophet3.png "Actual Values"
 
@@ -31,13 +31,13 @@ Looking at that graph we do indeed see that the actual price of Bitcoin does ind
 
 One of the features of **Prophet** is the fact that it can account for yearly, weekly, and daily seasonality. (It also can account for holiday seasonality, but we'll leave that exploration for another day.) We can view how those seasonal components are used in our model with the `plot_components`  method.
 
-![plot_actual][logo4]
+![alt text][logo4]
 
 [logo4]: https://github.com/t-ricco/t-ricco.github.io/tree/master/images/prophet4.png "Components"
 
 For comparisons sake, I looked at what a **Prophet** model would project for the price of Bitcoin going forward if it was trained on all available data. When I did that I got the following result.
 
-![plot_actual][logo5]
+![alt text][logo5]
 
 [logo5]: https://github.com/t-ricco/t-ricco.github.io/tree/master/images/prophet5.png "All Data"
 
